@@ -1,0 +1,89 @@
+.main-header{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+.table-header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    font-weight: 500;                   
+    text-transform: uppercase;          
+    letter-spacing: 0.07rem;            
+    color: white;    
+
+}
+
+.table-row{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+
+    .odd {
+        background-color: white;
+        color: black;
+    }
+    
+    .even {
+        background-color: darkslategrey;
+        color: white;
+    }
+}
+
+.paginated-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+    .selection-button {
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 80px;
+        height:35px;
+        font-weight: 600;  
+        color: darkslategrey;
+        
+    }
+
+    .page-numbers{
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.raw-data{
+    font-size: 17px;
+    color:white;
+}
+
+tr {
+    width: 100%;
+    height: 2.5rem;         
+    display: flex;          
+    align-items: center;  
+    font-weight: 500; 
+  
+    th, td {
+      cursor: pointer;
+      text-align: center;
+      flex-grow: 1;
+      flex-shrink: 1;
+      width: 100%;
+      font-weight: 600;
+    }
+}
+
+
+
+
+
+  
+    
+ 
