@@ -1,6 +1,7 @@
 # FolderTables
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+<br>
 This project is running on node version 18.16.1
 
 ## Development server
