@@ -23,3 +23,9 @@
     <span class="page-numbers">Page {{currentPage}} of {{ numberOfPages() }}</span>
     <button class="selection-button" [disabled]="currentPage >= userData.length/pageSize" (click)="currentPage = currentPage + 1" >Next</button>
 </div>
+
+<pre class="raw-data" *ngIf="this.result?.length">{{this.result | json}}</pre>
+
+
+
+
