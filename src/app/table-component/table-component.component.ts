@@ -11,7 +11,7 @@ export class TableComponentComponent implements OnInit {
   //These properties are to hide or to show features in the html page
   isPaginated: boolean = true;
   isCheckable: boolean = true;
-  isClicked: boolean = false;
+  
   
   //pagination properties
   currentPage!: number;
@@ -29,34 +29,34 @@ export class TableComponentComponent implements OnInit {
 
   //property for the user data 
   userData: Array<any> = [
-  {
-    id:'3',
-    name:'Jonathan',
-    last:'Blokker',
-    age:'32',
-    full:'Jonathan Blokker'
-  },
-  {
-    id:'4',
-    name:'Alina',
-    last:'Blokker',
-    age:'33',
-    full:'Alina Blokker'
-    },
     {
       id:'3',
-      name:'Jonathan',
-      last:'Blokker',
+      name:'John',
+      last:'Doe',
       age:'32',
-      full:'Jonathan Blokker'
+      full:'John Doe'
     },
     {
       id:'4',
-      name:'Alina',
-      last:'Blokker',
+      name:'Jane',
+      last:'Doe',
       age:'33',
-      full:'Alina Blokker'
-      },    
+      full:'Jane Doe'
+    },
+    {
+      id:'5',
+      name:'Jim',
+      last:'Bob',
+      age:'35',
+      full:'Jim Bob'
+    },
+    {
+      id:'6',
+      name:'Sally',
+      last:'Sue',
+      age:'30',
+      full:'Sally Sue'
+    },    
   ];
   
   constructor(
