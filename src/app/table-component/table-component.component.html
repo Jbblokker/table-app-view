@@ -18,3 +18,8 @@
     </tr>
 </table>
 
+<div class="paginated-buttons" *ngIf="isPaginated" >
+    <button class="selection-button" [disabled]="currentPage == 1" (click)="currentPage = currentPage - 1" >Previous</button>
+    <span class="page-numbers">Page {{currentPage}} of {{ numberOfPages() }}</span>
+    <button class="selection-button" [disabled]="currentPage >= userData.length/pageSize" (click)="currentPage = currentPage + 1" >Next</button>
+</div>
