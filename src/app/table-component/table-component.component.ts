@@ -11,7 +11,7 @@ export class TableComponentComponent implements OnInit {
   //These properties are to hide or to show features in the html page
   isPaginated: boolean = true;
   isCheckable: boolean = true;
-  
+  hasHeader: boolean = true;
   
   //pagination properties
   currentPage!: number;
